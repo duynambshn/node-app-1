@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + "/demo.html");
 })
 
-app.listen(port, "0.0.0.0", function () {
+app.listen(port, "127.0.0.1", function () {
   console.log('Listening on port ' + port)
 })
